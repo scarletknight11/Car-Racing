@@ -28,7 +28,7 @@ public class CarController : MonoBehaviour {
                 speed = 100;
                 speedUI.text = "Speed: " + speed;
             }
-        }  
+        }   
 
         if (Input.GetKey(KeyCode.DownArrow))
         {
